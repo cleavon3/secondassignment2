@@ -1,0 +1,488 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#F5F8FA;
+}
+
+li {
+    float: right;
+    
+}
+
+
+li a.active {
+    color: black;
+    background-color: #E0E6EA;
+   border-radius: 12px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: end;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar {
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F8FA;
+    border: 1px;
+    padding: 0;
+    box-shadow: 2px 2px #E0E6EA;
+}
+
+
+.big-card {
+   
+    background-color: whitesmoke;
+    box-shadow: 2px 2px gray;
+    border-radius: 2px;
+    margin: 10px;
+    color:#1d2c3c;
+    text-align: left;
+    position: relative;
+    height: 650px;
+    width: 892px;
+    
+   
+   
+    
+}
+
+
+.left-card {
+   
+    background-color: #1179BF;
+    border-top-left-radius: 6px; 
+	border-top-right-radius: 6px;
+ 
+	top: 0px;
+    left: 580px;
+	height: 650px;
+    width: 312px;
+    position: absolute;
+
+  
+    
+    
+   
+}
+
+.content {
+    margin: 0;
+  
+}
+
+
+
+._99-year, ._99-year * {
+        box-sizing: border-box;
+        }
+._99-year {
+        color: #ffffff;
+        text-align: left;
+        margin: 10px;
+        position: relative;
+        }
+    
+          
+._99-year-span1 {
+    color: #ffffff;
+    font-family: 'Lato-Light', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.3;
+   
+    }
+._99-year-span {
+        color: #ffffff;
+        font-family: 'Lato-Light', sans-serif;
+        font-size: 60px;
+        font-weight: 300;
+        }
+    
+._99-year-span2 {
+        color: #ffffff;
+        font-family: 'Lato-Bold', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        }
+    
+    
+
+.left-card h1 {
+    color: white;
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 700;
+    margin: 10px;
+    letter-spacing: -0.015px;
+   justify-content: space-between;
+   
+}
+
+.left-card p {
+    color: white;
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 700;
+    margin: 5px;
+    letter-spacing: -0.015px;
+
+}
+
+
+
+.container form {
+   
+    width: 700px;
+    box-shadow: 0 5px 10px rgb(0,0,0,..1);
+    
+}
+
+
+.styled-input {
+    height: 38px;
+    width: 50%;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E0E6EA;
+    justify-content: space-between;
+    display: flex;
+    
+    
+    
+   
+}
+   
+
+
+#myinput {
+    width: 75%;
+}
+
+.submit-btn {
+    width: 78%;
+    height: 38px;
+    background-color: #249D6D;
+    border-radius: 5px;
+    font-family: '-', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #F5F8FA;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+
+}
+
+.small-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.automatically-renews {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Lato-Italic', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: italic;
+    position: relative;
+    margin: 10px;
+}
+
+    .use-on-5-client-site {
+        color: #ffffff;
+        text-align: left;
+        font-family: '-', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        position: relative;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        }
+    
+    .use-on-5-client-site-span {
+        color: #ffffff;
+        font-family: 'Lato-Regular', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        }
+    
+    .use-on-5-client-site-span2 {
+        color: #ffffff;
+        font-family: 'Lato-Bold', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+        }
+    
+    .use-on-5-client-site-span3 {
+        color: #ffffff;
+        font-family: 'Lato-Regular', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        }
+    
+     
+        .need-20-client-sites {
+            color: #ffffff;
+            text-align: left;
+            font-family: '-', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            position: relative;
+            margin: 10px;
+            }
+        
+        .need-20-client-sites-span {
+            color: #ffffff;
+            font-family: 'Lato-Regular', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            }
+        
+        .need-20-client-sites-span2 {
+            color: #ffffff;
+            font-family: 'Lato-Bold', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            }
+        
+        .need-20-client-sites-span3 {
+            color: #ffffff;
+            font-family: 'Lato-Regular', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            }
+        
+        .need-20-client-sites-span4 {
+            color: #ffffff;
+            font-family: 'Lato-Bold', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            }
+        
+        .need-20-client-sites-span5 {
+            color: #ffffff;
+            font-family: 'Lato-BoldItalic', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            font-style: italic;
+            }
+        
+        .need-20-client-sites-span6 {
+            color: #ffffff;
+            font-family: 'Lato-Bold', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            }
+        
+        .need-20-client-sites-span7 {
+            color: #ffffff;
+            font-family: 'Lato-Regular', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            }
+        
+        
+            .ftp-is-horrible-to-d {
+                color: #ffffff;
+                text-align: left;
+                font-family: '-', sans-serif;
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: 400;
+                position: relative;
+                margin: 10px;
+                padding-top: 20px@@;
+                }
+            
+            .ftp-is-horrible-to-d-span {
+                color: #ffffff;
+                font-family: 'Lato-Italic', sans-serif;
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: 400;
+                font-style: italic;
+                }
+            
+            .ftp-is-horrible-to-d-span2 {
+                color: #ffffff;
+                font-family: 'Lato-BoldItalic', sans-serif;
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: 700;
+                font-style: italic;
+                }
+            
+            .ftp-is-horrible-to-d-span3 {
+                color: #ffffff;
+                font-family: 'Lato-Italic', sans-serif;
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: 400;
+                font-style: italic;
+                }
+            
+                
+                .rectangle-3 {
+                    background: #ffffff;
+                    opacity: 0.2005208283662796;
+                    width: 224px;
+                    height: 2px;
+                    position: relative;
+                    top: 10px;
+                    margin: 10px;
+                    }
+
+                
+                .rectangle-11 {
+                        background: #b9f5ff;
+                        opacity: 0.503566563129425;
+                        width: 180px;
+                        height: 4px;
+                        position: relative;
+                        margin: 10px;
+                        
+                        
+                }
+                    
+               
+                .image-name{
+                    color: #ffffff;
+                    text-align: left;
+                    font-family: '-', sans-serif;
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-weight: 400;
+                    position: relative;
+                    margin: 10px;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                   
+                    
+                    }
+
+                    .oval-2 {
+                        border-radius: 50%;
+                        border-style: solid;
+                        border-color: #548bc5;
+                        border-width: 2px;
+                        width: 30px;
+                        height: 30px;
+                        position: relative;
+                        color:#548bc5 ;
+                        text-align: center;
+                      
+                        }
+
+                        .basic{
+                            display: flex;
+                            gap: 2rem;
+                            text-align: center;
+                            justify-items: center;
+                            justify-self: center;
+                            align-items: center;
+                          }
+
+                          .payment{
+                            display: flex;
+                            gap: 2rem;
+                            text-align: center;
+                            justify-items: center;
+                            justify-self: center;
+                            align-items: center;
+                          }
+
+                          .inputBox label {
+                            display: block;
+                           
+
+                          }
+
+                          .name-container {
+                            display: flex;
+                            justify-content: space-between;
+                            gap: 2rem;
+                            margin-bottom: 10px;
+                          }
+
+                          .container-1{
+                           
+                            padding: 20px;
+                            
+                            
+                          }
+
+                          .container-2{
+                          
+                          
+                            padding: 20px;
+
+                          }
+
+                          .container {
+                            
+                            width: 100%;
+                            overflow: auto;
+                           }
+.inputBox {
+  width: 100%;
+ 
+  
+}
+
+.bitmap {
+    max-width: 50px;
+    height: auto;
+    border-radius: 100%;
+   }
+
+                    
+                    
+                    
+                        
+                    
+                    
+                
+                
+
+                
+                
+                    
+
+                    
+
+                
+                          
